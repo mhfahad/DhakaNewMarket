@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NMKTAPP.DAL\NMKTAPP.DAL.csproj" />
+    <ProjectReference Include="..\NMKTAPP.Models\NMKTAPP.Models.csproj" />
+  </ItemGroup>
+
+</Project>

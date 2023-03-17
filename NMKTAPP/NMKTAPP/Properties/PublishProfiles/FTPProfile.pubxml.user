@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9DvmD50YVkSskB+7FQuZJAAAAAACAAAAAAAQZgAAAAEAACAAAAAQ0/gqO0aATJ3mzrfcy3mmReCKKUnh9N6BKpoDeE72NAAAAAAOgAAAAAIAACAAAABxnF6t8bRp/rcY7NRbUdT+TxAfX2RafybT1gF3XU8f4CAAAAA9M76ZuxTQL8AOPHFBRe5k4M96D0mFpfQ6my2hWVC6YUAAAAADsoY7NtjkaGhKu6v/zIYFGIvmPYbXlJjwdDYv65/kWLBk+fe3q5D2Qey8y2gDkrD+xDasgFq5UpskjjZBrCjb</EncryptedPassword>
+    <_PublishTargetUrl>https://win8027.site4now.net:8172/msdeploy.axd?site=mhfahad-001-site1/https://win8027.site4now.net:8172/msdeploy.axd?site=mhfahad-001-site1</_PublishTargetUrl>
+    <History>False|2022-05-30T16:16:32.0934532Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=DESKTOP-6TJ0NIM%3bDatabase=NMKTAPPDB%3bTrusted_Connection=True%3bMultipleActiveResultSets=true</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="NMKTAPP.DatabaseContext.DatabaseContext.ProjectDbContext">
+      <Value>Server=DESKTOP-6TJ0NIM%3bDatabase=NMKTAPPDB%3bTrusted_Connection=True%3bMultipleActiveResultSets=true</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
